@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+
+
+* {
+    margin: 0 ;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 500 14px Roboto, sans-serif;
+    background: #FFFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+input,button, textarea {
+    font: 500 18px Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+form input {
+    width: 100%;
+    height: 60px;
+    font: 900 20px Roboto, sans-serif;
+    color: #2c2b2c;
+    border-radius: 8px;
+    border: 1px solid #cfcacf;
+    padding: 0 24px;
+}
+
+.button {
+    
+    background-color: rgb(228, 7, 36);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #cfcacf;
+    color: white;
+    margin-top: 8px;
+    font: 900 24px Roboto, sans-serif;
+    line-height: 20px;
+    transition: filter 0.2s;
+}
+
+.button:hover {
+    filter: brightness(85%);
+}
+
+
+.coadjuvante-link {
+    margin-top: 10px;
+    display: flex;
+    font-size: 18px;
+    color: rgb(34, 33, 33);
+    align-items: center;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+.coadjuvante-link svg {
+    margin-right: 8px;
+}
+
+.coadjuvante-link:hover {
+    opacity: 0.8;
+}
